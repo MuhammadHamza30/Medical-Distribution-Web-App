@@ -1,0 +1,6 @@
+node_modules/
+.ui-test.cjs
+.env
+.env.*
+!.env.example
+.DS_Store

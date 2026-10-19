@@ -1,0 +1,26 @@
+{
+  "name": "pharma-distribution-frontend",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build && node scripts/standalone.mjs",
+    "preview": "vite preview",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "lucide-react": "0.468.0",
+    "react": "19.2.0",
+    "react-dom": "19.2.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.25.12",
+    "jsdom": "^26.0.0",
+    "prettier": "^3.3.3",
+    "vite": "6.4.1"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  }
+}
